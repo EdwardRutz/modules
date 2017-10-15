@@ -1,4 +1,5 @@
     module Properties
+
       module ClassMethods
         def four_legs
           "Has four legs"
@@ -7,7 +8,7 @@
         def type_of_wood
             "Cherry"
         end
-      end
+      end # /ClassMethods
 
       def description
         puts "This piece has four legs and is made of cherry."
